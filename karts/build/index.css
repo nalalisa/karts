@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Serif KR', serif;
+}
+
+div.logo-container {
+  width: 100%;
+}
+
+img.logo {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.container {
+  border-bottom: 1px solid gray;
+}
+
+ .footer-intro {
+  display: flex;  
+  justify-content: space-between;
+}
+
+.footer-logo, .footer-logo>a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+} 
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  padding: 0;
+  margin: auto;
+}
+
+.nav-list li {
+  list-style: none;
+}
+.nav-list a {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+.nav-list a:hover {
+  color: #3276b5;
+}
+
+.main-navigation {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.main-navigation ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.main-navigation li {
+  list-style: none;
+}
+.main-navigation a {
+  padding: .5rem 1rem;
+  margin: 0 2px 0 2px ;
+  color: gray;
+  text-decoration: none;
+  font-weight: blod;
+  transition: .2s;
+}
+.main-navigation a:hover {
+  color: black;
+  font-weight: bolder;
+
+}
+
+.footer-intro {
+  padding-top: 1rem;
+  margin-bottom: 40px;
+}
+
+main {
+  border-bottom: 1px solid gray;
+}
+
+.news-info {
+  padding-bottom: 10px;
+}
+
+main.articles {
+  padding: 1rem 3rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main-article {
+  display: inline-block;
+  width: 600px;
+  
+  margin: 0 auto;
+}
+
+.main-article > img {
+  width: inherit;
+}
+.spread-articles {
+  
+  display: inline-block;
+  width: 300px;
+}
+
+.spread-articles li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+}
+
+.published {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+div.main {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.article-container>ul>li:hover {
+  cursor: pointer;
+  color: orange;
+}
+/* 
+.main-articles {
+  width: 80%;
+} */
+/* .site-footer {
+} */
