@@ -114,6 +114,10 @@ main.articles {
   
   margin: 0 auto;
 }
+.main-article:hover {
+  cursor: pointer;
+  color: orange;
+}
 
 .main-article > img {
   width: inherit;
@@ -134,6 +138,7 @@ main.articles {
 .published {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: .5rem;
   border-bottom: 1px solid gray;
   margin-bottom: 1rem;
@@ -141,7 +146,8 @@ main.articles {
 div.main {
   display: flex;
   justify-content: space-around;
-  
+  border-bottom: 1px solid gray;
+  padding-bottom: 2rem;
 }
 
 .article-container>ul>li:hover {
@@ -154,3 +160,33 @@ div.main {
 } */
 /* .site-footer {
 } */
+
+.reader-quiz {
+  width: 900px;
+  height: 200px;
+  border-bottom: 1px solid gray;
+}
+.reader-quiz:hover {
+  cursor: pointer;
+}
+/* .reader-quiz, .photo, .categories, .cartoon {
+  display: block;
+} */
+
+.photo {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.photo-post > .image {
+  width: 440px;
+  height: 340px;
+}
+
+.photo-post:hover {
+  cursor: pointer;
+  color: orange;
+}
